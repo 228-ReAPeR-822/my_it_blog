@@ -169,3 +169,19 @@ table {
 /* transition отвечает за время анимации */
 /* :hover отвечает за наведение мышки */
 
+.up-button {
+    display: inline-block;
+    background-color: #0f3460;
+    color: #00d8ff;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 1px solid #00d8ff;
+}
+
+.up-button:hover {
+    background-color: #00d8ff;
+    color: #1a1a2e;
+}
